@@ -1,8 +1,8 @@
 <?php
 
-namespace exbility\sample\models;
+namespace kouosl\sample\models;
 
-use exbility\sample\Module;
+use kouosl\sample\Module;
 use Yii;
 
 /**

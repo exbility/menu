@@ -1,5 +1,5 @@
 {
-    "name": "exbility/menu",
+    "name": "kouosl/menu",
     "description": "Yii2 KouOsl menu Module Integration",
     "type": "yii2-extension",
     "keywords": ["yii2", "yii 2", "menu", "menu", "module", "modules"],
@@ -7,12 +7,12 @@
     "authors": [
         {
             "name": "İbrahim Aşık",
-            "email": "info@exbility.com.tr"
+            "email": "info@kouosl.com.tr"
         }
     ],
     "autoload": {
         "psr-4": {
-            "exbility\\menu\\": ""
+            "kouosl\\menu\\": ""
         }
     }
 }

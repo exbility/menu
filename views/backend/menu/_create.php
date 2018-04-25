@@ -1,7 +1,7 @@
 <?php
 
-use exbility\theme\helpers\Html;
-use exbility\theme\widgets\Portlet;
+use kouosl\theme\helpers\Html;
+use kouosl\theme\widgets\Portlet;
 
 
 $this->title = 'Create Sample';

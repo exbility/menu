@@ -1,12 +1,12 @@
 <?php
 
-namespace exbility\menu\controllers\backend;
+namespace kouosl\menu\controllers\backend;
 
-use exbility\menu\models\MenuData;
-use exbility\menu\models\UploadImage;
+use kouosl\menu\models\MenuData;
+use kouosl\menu\models\UploadImage;
 use Yii;
-use exbility\menu\models\Menu;
-use exbility\menu\models\MenuSearch;
+use kouosl\menu\models\Menu;
+use kouosl\menu\models\MenuSearch;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\web\UnauthorizedHttpException;

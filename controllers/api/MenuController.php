@@ -1,13 +1,13 @@
 <?php
 
-namespace exbility\menu\controllers\api;
+namespace kouosl\menu\controllers\api;
 
-use exbility\menu\models\Menu;
+use kouosl\menu\models\Menu;
 use Yii;
 
 class MenuController extends DefaultController {
 	
-	public $modelClass = 'exbility\menu\models\Menu';
+	public $modelClass = 'kouosl\menu\models\Menu';
 	
 	public function actions() {
 		$actions = parent::actions ();

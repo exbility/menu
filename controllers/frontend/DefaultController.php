@@ -1,9 +1,9 @@
 <?php
 
-namespace exbility\menu\controllers\frontend;
+namespace kouosl\menu\controllers\frontend;
 
 
-class DefaultController extends \exbility\base\controllers\backend\BaseController
+class DefaultController extends \kouosl\base\controllers\backend\BaseController
 {
     public function actionIndex()
     {

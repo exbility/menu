@@ -1,6 +1,6 @@
 <?php
 
-namespace exbility\menu;
+namespace kouosl\menu;
 use Yii;
 use yii\filters\auth\CompositeAuth;
 use yii\filters\auth\HttpBasicAuth;
@@ -8,7 +8,7 @@ use yii\filters\auth\HttpBearerAuth;
 use yii\filters\auth\QueryParamAuth;
 use yii\web\HttpException;
 
-class Module extends \exbility\base\Module
+class Module extends \kouosl\base\Module
 {
     public $controllerNamespace = '';
 
@@ -57,7 +57,7 @@ class Module extends \exbility\base\Module
         Yii::$app->i18n->translations['site/*'] = [ /*SONRA BAK FURKAN SITE YI DE MENU YAPMIS*/
             'class' => 'yii\i18n\PhpMessageSource',
             'sourceLanguage' => 'en-US',
-            'basePath' => '@exbility/menu/messages',
+            'basePath' => '@kouosl/menu/messages',
             'fileMap' => [
                 'menu/menu' => 'menu.php',
             ],

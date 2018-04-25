@@ -1,12 +1,12 @@
 <?php
 
-namespace exbility\menu\controllers\console;
+namespace kouosl\menu\controllers\console;
 
 
 /**
  * RBAC console controller.
  */
-class DefaultController extends \exbility\base\controllers\console\BaseController
+class DefaultController extends \kouosl\base\controllers\console\BaseController
 {
 
 	public function actionIndex(){

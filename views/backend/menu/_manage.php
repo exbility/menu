@@ -1,11 +1,11 @@
 <?php
 
 
-use exbility\theme\widgets\CheckBoxColumn;
-use exbility\theme\widgets\Portlet;
-use exbility\theme\widgets\GridView;
-use exbility\theme\helpers\Html;
-use exbility\theme\widgets\ActionColumn;
+use kouosl\theme\widgets\CheckBoxColumn;
+use kouosl\theme\widgets\Portlet;
+use kouosl\theme\widgets\GridView;
+use kouosl\theme\helpers\Html;
+use kouosl\theme\widgets\ActionColumn;
 
 
 $this->title 	= 'Samples Manage';
