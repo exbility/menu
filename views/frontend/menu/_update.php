@@ -1,13 +1,11 @@
 <?php
+use exbility\theme\helpers\Html;
+use exbility\theme\widgets\Portlet;
 
-use kouosl\theme\helpers\Html;
-use kouosl\theme\widgets\Portlet;
 
-
-$this->title = 'Create Sample';
+$this->title = 'Update Sample';
 $data['title'] = Html::encode($this->title);
 $this->params['breadcrumbs'][] = $this->title;
-
 
 
 $this->params['pageTitle'] 	= $this->title;
@@ -19,11 +17,6 @@ $formView	            = $this->render('_form',$data);
 
 Portlet::begin(['title' => $this->title, 'icon' => 'glyphicon glyphicon-cog']);
 
-    echo $this->render('create', ['formView' => $formView]);
+    echo $this->render('update', ['formView' => $formView]);
 
 Portlet::end();
-
-
-
-
-	

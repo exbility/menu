@@ -1,7 +1,7 @@
 <?php
 
-use kouosl\theme\helpers\Html;
-use kouosl\theme\widgets\ActiveForm;
+use exbility\theme\helpers\Html;
+use exbility\theme\widgets\ActiveForm;
 
 $data['titlePage']	    = $title;
 $form                   = ActiveForm::begin(['id' => 'form-create','class'=>'horizontal-form']);

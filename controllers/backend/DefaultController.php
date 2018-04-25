@@ -1,8 +1,8 @@
 <?php
 
-namespace kouosl\sample\controllers\backend;
+namespace exbility\menu\controllers\backend;
 
-class DefaultController extends \kouosl\base\controllers\backend\BaseController
+class DefaultController extends \exbility\base\controllers\backend\BaseController
 {
     public function actionIndex()
     {

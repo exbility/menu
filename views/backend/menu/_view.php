@@ -1,8 +1,8 @@
 <?php
 
-use kouosl\theme\helpers\Html;
-use kouosl\theme\widgets\DetailView;
-use kouosl\theme\widgets\Portlet;
+use exbility\theme\helpers\Html;
+use exbility\theme\widgets\DetailView;
+use exbility\theme\widgets\Portlet;
 
 $this->title = $model->title;
 $this->params['breadcrumbs'][] = ['label' => 'Samples', 'url' => ['manage']];

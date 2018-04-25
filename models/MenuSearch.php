@@ -1,13 +1,13 @@
 <?php
 
-namespace kouosl\sample\models;
+namespace exbility\menu\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
- * SampleSearch represents the model behind the search form about `app\modules\sample\models\Sample`.
+ * SampleSearch represents the model behind the search form about `app\modules\menu\models\Sample`.
  */
 class SamplesSearch extends Samples
 {

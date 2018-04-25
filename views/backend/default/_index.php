@@ -1,6 +1,6 @@
 <?php
-use kouosl\theme\helpers\Html;
-use kouosl\theme\widgets\Portlet;
+use exbility\theme\helpers\Html;
+use exbility\theme\widgets\Portlet;
 
 $this->title = 'Index Sample';
 $data['title'] = Html::encode($this->title);
